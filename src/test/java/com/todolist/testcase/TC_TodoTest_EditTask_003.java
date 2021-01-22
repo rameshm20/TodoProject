@@ -23,8 +23,9 @@ public class TC_TodoTest_EditTask_003 extends BaseClass{
 		hp.clickSaveTask();		
 		hp.clickEdit();
 		Thread.sleep(300);
-		hp.inputTask("this is modified text");
 		captureScreen(driver, "modifyTest");
+		hp.inputTask("this is modified text");
+		
 		hp.clickSaveTask();
 
 	}	
