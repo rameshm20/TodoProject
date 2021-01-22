@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [todoListV1]">
+  <listeners>
+    <listener class-name="com.todolist.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="todoList Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.todolist.testcase.TC_TodoTest_EditTask_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="todoTest" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.todolist.testcase.TC_TodoTest_EditTask_003 -->
+    </classes>
+  </test> <!-- todoList Test(failed) -->
+</suite> <!-- Failed suite [todoListV1] -->

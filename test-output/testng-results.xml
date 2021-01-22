@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="todoListV1" duration-ms="43110" started-at="2021-01-22T18:04:14 IST" finished-at="2021-01-22T18:04:57 IST">
+    <groups>
+    </groups>
+    <test name="todoList Test" duration-ms="43110" started-at="2021-01-22T18:04:14 IST" finished-at="2021-01-22T18:04:57 IST">
+      <class name="com.todolist.testcase.TC_TodoTest_CompleteTask_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_CompleteTask_004@2d6eabae]" name="setup" is-config="true" duration-ms="3333" started-at="2021-01-22T18:04:48 IST" finished-at="2021-01-22T18:04:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="todoTest(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_CompleteTask_004@2d6eabae]" name="todoTest" duration-ms="5629" started-at="2021-01-22T18:04:51 IST" data-provider="TestData" finished-at="2021-01-22T18:04:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.todolist.testcase.TC_TodoTest_CompleteTask_004@2d6eabae]" name="tearDown" is-config="true" duration-ms="849" started-at="2021-01-22T18:04:57 IST" finished-at="2021-01-22T18:04:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.todolist.testcase.TC_TodoTest_CompleteTask_004 -->
+      <class name="com.todolist.testcase.TC_TodoTest_EditTask_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_EditTask_003@23faf8f2]" name="setup" is-config="true" duration-ms="3306" started-at="2021-01-22T18:04:37 IST" finished-at="2021-01-22T18:04:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="todoTest(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_EditTask_003@23faf8f2]" name="todoTest" duration-ms="6545" started-at="2021-01-22T18:04:40 IST" data-provider="TestData" finished-at="2021-01-22T18:04:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'LAPTOP-QBRMPJTJ', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\jesus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3112da46360bec97d0865279d8514d7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=88.0.4324.104)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'LAPTOP-QBRMPJTJ', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\jesus\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53661}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d3112da46360bec97d0865279d8514d7
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
+at com.todolist.pageobjects.HomePage.inputTask(HomePage.java:70)
+at com.todolist.testcase.TC_TodoTest_EditTask_003.todoTest(TC_TodoTest_EditTask_003.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.todolist.testcase.TC_TodoTest_EditTask_003@23faf8f2]" name="tearDown" is-config="true" duration-ms="816" started-at="2021-01-22T18:04:47 IST" finished-at="2021-01-22T18:04:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.todolist.testcase.TC_TodoTest_EditTask_003 -->
+      <class name="com.todolist.testcase.TC_TodoTest_CreateTask_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_CreateTask_001@51cdd8a]" name="setup" is-config="true" duration-ms="5169" started-at="2021-01-22T18:04:14 IST" finished-at="2021-01-22T18:04:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="todoTest(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_CreateTask_001@51cdd8a]" name="todoTest" duration-ms="5962" started-at="2021-01-22T18:04:20 IST" data-provider="TestData" finished-at="2021-01-22T18:04:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.todolist.testcase.TC_TodoTest_CreateTask_001@51cdd8a]" name="tearDown" is-config="true" duration-ms="1194" started-at="2021-01-22T18:04:26 IST" finished-at="2021-01-22T18:04:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.todolist.testcase.TC_TodoTest_CreateTask_001 -->
+      <class name="com.todolist.testcase.TC_TodoTest_CancelTask_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_CancelTask_002@d44fc21]" name="setup" is-config="true" duration-ms="3709" started-at="2021-01-22T18:04:27 IST" finished-at="2021-01-22T18:04:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="todoTest(java.lang.String)[pri:0, instance:com.todolist.testcase.TC_TodoTest_CancelTask_002@d44fc21]" name="todoTest" duration-ms="4976" started-at="2021-01-22T18:04:31 IST" data-provider="TestData" finished-at="2021-01-22T18:04:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.todolist.testcase.TC_TodoTest_CancelTask_002@d44fc21]" name="tearDown" is-config="true" duration-ms="832" started-at="2021-01-22T18:04:36 IST" finished-at="2021-01-22T18:04:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.todolist.testcase.TC_TodoTest_CancelTask_002 -->
+    </test> <!-- todoList Test -->
+  </suite> <!-- todoListV1 -->
+</testng-results>

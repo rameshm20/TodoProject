@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="todoListV1" >
+
+
+<listeners>
+		<listener class-name="com.todolist.utilities.Reporting"> </listener>
+	</listeners>
+
+  <test name="todoList Test" >
+  <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.todolist.testcase.TC_TodoTest_CreateTask_001" />
+      <class name="com.todolist.testcase.TC_TodoTest_CancelTask_002" />
+      <class name="com.todolist.testcase.TC_TodoTest_EditTask_003" />
+      <class name="com.todolist.testcase.TC_TodoTest_CompleteTask_004" />
+      
+     
+    </classes>
+  </test>
+ 
+  
+</suite>

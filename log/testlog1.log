@@ -1,0 +1,84 @@
+2021-01-22 15:10:45,401 [main] INFO todo - URL entered
+2021-01-22 15:10:46,593 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:15:36,423 [main] INFO todo - URL entered
+2021-01-22 15:15:37,610 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:15:47,023 [main] INFO todo - URL entered
+2021-01-22 15:15:47,954 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:16:59,806 [main] INFO todo - URL entered
+2021-01-22 15:17:00,884 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:17:10,298 [main] INFO todo - URL entered
+2021-01-22 15:17:11,411 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:39:03,644 [main] INFO todo - URL entered
+2021-01-22 15:39:04,715 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:43:56,319 [main] INFO todo - URL entered
+2021-01-22 15:43:57,384 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:43:59,068 [main] INFO todo - tooltip is correct
+2021-01-22 15:52:05,801 [main] INFO todo - URL entered
+2021-01-22 15:52:06,782 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:52:08,416 [main] INFO todo - tooltip is correct
+2021-01-22 15:52:58,740 [main] INFO todo - URL entered
+2021-01-22 15:52:59,810 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:53:01,507 [main] INFO todo - tooltip is correct
+2021-01-22 15:55:38,148 [main] INFO todo - URL entered
+2021-01-22 15:55:39,038 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:55:41,029 [main] INFO todo - tooltip is correct
+2021-01-22 15:58:26,188 [main] INFO todo - URL entered
+2021-01-22 15:58:27,214 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:58:28,878 [main] INFO todo - tooltip is correct
+2021-01-22 15:59:30,584 [main] INFO todo - URL entered
+2021-01-22 15:59:31,495 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 15:59:33,016 [main] INFO todo - tooltip is correct
+2021-01-22 16:02:33,304 [main] INFO todo - URL entered
+2021-01-22 16:02:34,367 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 16:02:35,794 [main] INFO todo - tooltip is correct
+2021-01-22 16:16:19,580 [main] INFO todo - URL entered
+2021-01-22 16:16:20,557 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 16:16:22,155 [main] INFO todo - tooltip is correct
+2021-01-22 16:16:22,263 [main] INFO todo - tooltip is correct after selecting the check box 
+2021-01-22 16:28:47,499 [main] INFO todo - URL entered
+2021-01-22 16:28:48,469 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 16:36:41,934 [main] INFO todo - URL entered
+2021-01-22 16:36:43,312 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 16:44:15,580 [main] INFO todo - URL entered
+2021-01-22 16:44:15,722 [main] INFO todo - page logo is correct
+2021-01-22 16:44:16,867 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:45:41,491 [main] INFO todo - URL entered
+2021-01-22 17:45:41,583 [main] INFO todo - page logo is correct
+2021-01-22 17:45:42,416 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:45:43,861 [main] INFO todo - task is correctly dosplayed
+2021-01-22 17:49:36,956 [main] INFO todo - URL entered
+2021-01-22 17:49:37,045 [main] INFO todo - page logo is correct
+2021-01-22 17:49:37,885 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:49:39,252 [main] INFO todo - task is correctly dosplayed
+2021-01-22 17:49:46,614 [main] INFO todo - URL entered
+2021-01-22 17:49:47,348 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:49:55,418 [main] INFO todo - URL entered
+2021-01-22 17:49:56,119 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:50:06,081 [main] INFO todo - URL entered
+2021-01-22 17:50:06,953 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:50:08,388 [main] INFO todo - tooltip is correct
+2021-01-22 17:50:08,481 [main] INFO todo - tooltip is correct after selecting the check box 
+2021-01-22 17:53:27,678 [main] INFO todo - URL entered
+2021-01-22 17:53:27,730 [main] INFO todo - page logo is correct
+2021-01-22 17:53:28,659 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:53:30,035 [main] INFO todo - task is correctly dosplayed
+2021-01-22 17:53:37,323 [main] INFO todo - URL entered
+2021-01-22 17:53:38,245 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:53:46,744 [main] INFO todo - URL entered
+2021-01-22 17:53:47,574 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:53:57,234 [main] INFO todo - URL entered
+2021-01-22 17:53:58,638 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 17:53:59,912 [main] INFO todo - tooltip is correct
+2021-01-22 17:54:00,010 [main] INFO todo - tooltip is correct after selecting the check box 
+2021-01-22 18:04:24,265 [main] INFO todo - URL entered
+2021-01-22 18:04:24,414 [main] INFO todo - page logo is correct
+2021-01-22 18:04:25,128 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 18:04:26,560 [main] INFO todo - task is correctly dosplayed
+2021-01-22 18:04:34,951 [main] INFO todo - URL entered
+2021-01-22 18:04:35,761 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 18:04:43,956 [main] INFO todo - URL entered
+2021-01-22 18:04:44,789 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 18:04:54,661 [main] INFO todo - URL entered
+2021-01-22 18:04:55,507 [main] INFO todo - Clicked on task button to create new task
+2021-01-22 18:04:56,960 [main] INFO todo - tooltip is correct
+2021-01-22 18:04:57,048 [main] INFO todo - tooltip is correct after selecting the check box 
